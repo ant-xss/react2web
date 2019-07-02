@@ -19,7 +19,7 @@ class Login extends Component {
 
   onLogin = () => {
     //this.props.dispatch(createAction('app/login')())
-    this.props.dispatch(NavigationActions.navigate({ routeName: 'lists' }))
+    //this.props.dispatch(NavigationActions.navigate({ routeName: 'lists' }))
   }
 
   onClose = () => {
